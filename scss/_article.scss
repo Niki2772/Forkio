@@ -1,0 +1,63 @@
+.version-name {
+  color: #323232;
+  font-size: 16px;
+  line-height: 16px;
+  margin-bottom: 26px;
+}
+
+.version-details {
+  color: #848e97;
+  font-size: 13px;
+  line-height: 21px;
+  margin-bottom: 35px;
+}
+
+h5 {
+  color: #d3d1da;
+  font-size: 28px;
+  margin: 80px 0 60px;
+  line-height: 28px;
+
+}
+
+.article-bttn {
+  color: #8d81ac;
+  font-size: 14px;
+  line-height: 35px;
+  height: 35px;
+  width: 158px;
+  background-color: #f4f4f4;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 60px;
+  &:hover {
+    cursor: pointer;
+    background-color: #8d81ac;
+    color: #f4f4f4;
+  }
+}
+
+.popular-art-name {
+  @extend .version-name;
+  margin-bottom: 18px;
+  color: #8d81ac;
+}
+
+.art-details {
+  @extend .version-details;
+
+}
+
+.blog {
+  .popular-art-name {
+    margin-bottom: 13px;
+  }
+}
+
+.footer-line {
+  height: 1px;
+  opacity: 0.2;
+  background-color: #c7c7c7;
+  margin-top: 70px;
+}
+

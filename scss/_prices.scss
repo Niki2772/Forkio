@@ -1,0 +1,109 @@
+.prices {
+  background-image: url('../images/bg-prices.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-top: -1px;
+}
+
+h2 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.rate {
+  background-color: rgba(255, 255, 255, 0.06);
+  color: #fff;
+  text-transform: uppercase;
+  width: 255px;
+  height: 458px;
+  margin-right: 13px;
+  &:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: all .3s;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.16);
+    .tariff {
+      background-color: rgba(0, 0, 0, 0.11);
+    }
+
+  }
+}
+
+.tariff {
+  font-size: 24px;
+  height: 97px;
+  line-height: 97px;
+  background-color: rgba(255, 255, 255, 0.1);
+
+}
+
+.price {
+  font-size: 58px;
+  font-weight: 700;
+  margin-top: 37px;
+  margin-bottom: 27px;
+  line-height: 50px;
+}
+
+.period {
+  opacity: 0.3;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.short-line {
+  margin: 40px auto 32px;
+  width: 60px;
+  height: 5px;
+  background-color: #8d81ac;
+}
+
+.ownership {
+  font-size: 16px;
+  text-transform: none;
+  margin-bottom: 40px;
+  line-height: 16px;
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.purchase-btn {
+  width: 160px;
+  height: 42px;
+  background-color: rgba(255, 255, 255, 0.15);
+  font-size: 15px;
+  border-radius: 50px;
+  line-height: 42px;
+  margin: 0 auto;
+  &:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #8d81ac;
+  }
+}
+
+.transparent {
+  color: transparent;
+}
+
+.rates-wrap {
+  margin: 130px 0 130px;
+}
+
+.rates-info {
+  opacity: 0.8;
+  color: #a291a5;
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 78px;
+}
+
+
+
+
+

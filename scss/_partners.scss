@@ -1,0 +1,31 @@
+.partners {
+  background-image: url('../images/bg-partners.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+  h2 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: none;
+    margin: 100px 0 100px;
+  }
+}
+
+.our-partner {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 100px;
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.line {
+  height: 1px;
+  opacity: 0.2;
+  background-color: #c7c7c7;
+  margin-bottom: 50px;
+}

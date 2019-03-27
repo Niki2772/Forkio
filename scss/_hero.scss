@@ -1,0 +1,24 @@
+.hero {
+  height: 800px;
+  background-image: url('../images/bg-hero.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size:cover;
+}
+h1 {
+  color: #fff;
+  font-size: 82px;
+  font-weight: 800;
+  margin:110px 0 40px;
+  }
+.app-descr{
+  color: #8d81ac;
+  font-size: 30px;
+  font-weight: 400;
+}
+.version{
+  color: #848e97;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 24px;
+}

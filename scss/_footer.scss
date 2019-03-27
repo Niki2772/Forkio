@@ -1,0 +1,65 @@
+.footer-nav {
+  padding: 0;
+  li {
+    list-style: none;
+    line-height: 1.5;
+  }
+  a {
+    color: #8d81ac;
+    font-size: 15px;
+  }
+
+}
+
+h6 {
+  color: #323232;
+  font-size: 16px;
+  margin-bottom: 17px;
+}
+
+.product-descr {
+  color: #848e97;
+  font-size: 14px;
+  line-height: 21px;
+  padding-top: 27px;
+
+}
+
+.phone {
+  color: #3f3f3f;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  padding: 0 0 15px;
+}
+
+.working-hours {
+  color: #848e97;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.state {
+  height: 14px;
+  color: #323232;
+  line-height: 16px;
+  font-size: 16px;
+  padding: 40px 0 25px;
+}
+
+.address {
+  color: #848e97;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.additional-info {
+  .product-descr {
+    padding: 0;
+  }
+}
+
+.footer {
+  padding-bottom: 100px;
+  padding-top: 66px;
+}

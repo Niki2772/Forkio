@@ -1,0 +1,93 @@
+.features {
+  background-color: #f4f4f4;
+  height: 710px;
+  position: relative;
+}
+
+.features-bg {
+  position: absolute;
+  bottom: -50px;
+  right: 0;
+}
+
+.logo {
+  width: 95px;
+  height: 85px;
+  &:first-child {
+    width: 110px;
+  }
+}
+
+h3 {
+  font-size: 16px;
+  color: #323;
+  margin-bottom: 3px;
+}
+
+.article-name {
+  font-size: 48px;
+  color: #8d81ac;
+  font-weight: bold;
+  position: absolute;
+  top: 70px;
+  right: 150px;
+  margin: 0;
+}
+
+.features-item {
+  margin-top: 100px;
+}
+
+.features-item-text {
+  font-size: 14px;
+  color: #848e97;
+  margin-bottom: 40px;
+}
+
+.quality {
+  background-image: url('../images/adv-quality.png');
+  background-repeat: no-repeat;
+
+}
+
+.power {
+  background-image: url('../images/adv-powerful-tool.png');
+  background-repeat: no-repeat;
+}
+
+.speed {
+  background-image: url('../images/adv-speed.png');
+  background-repeat: no-repeat;
+  background-position: 25% 0;
+
+}
+
+.experiments {
+  background-image: url('../images/adv-experiments.png');
+  background-repeat: no-repeat;
+  background-position: 25% 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
