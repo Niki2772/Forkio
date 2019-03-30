@@ -1246,9 +1246,11 @@ h6 {
   padding-top: 66px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 770px) {
+  /* header */
+
   .logo {
-    margin: 0 calc(50% - 80px);
+    margin: 0 calc(50% - 100px);
   }
 
   .menu {
@@ -1282,9 +1284,13 @@ h6 {
     margin-top: 10px;
   }
 
+  /* hero */
+
   .hero-wrap {
     padding-top: 100px;
   }
+
+  /* features */
 
   .features {
     height: 1363px !important;
@@ -1294,22 +1300,6 @@ h6 {
     position: relative;
     margin-top: -85px;
     margin-left: 35px;
-  }
-
-  .user {
-    margin-top: 210px;
-    margin-bottom: 40px;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-  }
-
-  .article-name {
-    right: 0 !important;
-    text-align: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
   }
 
   .features-item {
@@ -1327,6 +1317,24 @@ h6 {
     padding-left: 0;
   }
 
+  .article-name {
+    right: 0 !important;
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  /* social-networks */
+
+  .user {
+    margin-top: 210px;
+    margin-bottom: 40px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
   .netw-btns-wrap {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1341,6 +1349,8 @@ h6 {
     margin-bottom: 60px;
   }
 
+  /* partners */
+
   .our-partner {
     margin-bottom: 60px;
     padding: 0 30px;
@@ -1353,6 +1363,12 @@ h6 {
   h2 {
     margin-bottom: 0 !important;
   }
+
+  .partners {
+    background-position: 60% 100%;
+  }
+
+  /* prices */
 
   .rates-wrap {
     -webkit-box-orient: vertical;
@@ -1372,13 +1388,11 @@ h6 {
     margin-bottom: 40px;
   }
 
-  .partners {
-    background-position: 60% 100%;
-  }
-
   .prices {
     background-position: 60% 100%;
   }
+
+  /* subscribe */
 
   .subscribe {
     height: 210px;
@@ -1401,6 +1415,8 @@ h6 {
     width: 290px;
   }
 
+  /* articles */
+
   h5 {
     margin: 60px 0 40px;
   }
@@ -1408,6 +1424,8 @@ h6 {
   .article-bttn {
     margin-top: 40px;
   }
+
+  /*footer*/
 
   footer {
     padding: 50px 0 80px !important;
@@ -1436,5 +1454,47 @@ h6 {
 
   footer h6 {
     margin-top: 40px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .menu li {
+    margin-left: 20px !important;
+  }
+}
+
+@media (max-width: 993px) {
+  .logo {
+    margin: 0 calc(50% - 100px);
+  }
+
+  .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    margin-top: 20px;
+  }
+
+  .menu li {
+    margin-left: 10px !important;
+  }
+
+  .menu li a {
+    color: #8d81ac !important;
+    border-bottom: none !important;
+  }
+
+  .menu li a:hover {
+    cursor: pointer;
+    color: #fff !important;
+  }
+
+  .menu li:last-child a {
+    color: #fff !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
   }
 }
